@@ -1,0 +1,13 @@
+.form {
+    /* background-color: lightcoral; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.form_left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    /* border-right: 0.2em solid rgb(90, 88, 87); */
+}
