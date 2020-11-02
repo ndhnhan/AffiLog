@@ -28,16 +28,20 @@
     </nav>
     <hr>
 
+    <br>
     <div class="form min_height max_width_1 m_auto">
         <div class="form_left">
             <span>Email Us Here</span>
-            <input class="form_input_1" type="text" name="" id="" placeholder="Your Name">
-            <input class="form_input_1" type="email" name="" id="" placeholder="Your Email Address">
-            <textarea class="form_input_1" name="" id="" cols="30" rows="4"></textarea>
+            <input class="form_input_1" type="text" name="" id="" maxlength="50" placeholder="Your Name" required>
+            <input class="form_input_1" type="email" name="" id="" maxlength="60" placeholder="Your Email Address" required>
+            <input class="form_input_1" type="tel" name="" id="" maxlength="10" placeholder="Phone No.">
+            <textarea class="form_input_1" name="" id="" cols="30" rows="4" maxlength="2000" placeholder="Describe Your Consent Here"></textarea>
             <button class="btn_1" type="submit">Send</button>
         </div>
+        <div class="divider"></div>
         <div class="form_right"></div>
     </div>
+
 
     <div class="sticky_foot">
         <span>Copyright &copy; All rights reserved</span>

@@ -1,13 +1,25 @@
 .form {
-    /* background-color: lightcoral; */
-    display: grid;
-    grid-template-columns: 70% 30%;
+    display: flex;
 }
 
 .form_left {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    /* border-right: 0.2em solid rgb(90, 88, 87); */
+}
+
+.form_left span {
+    font-size: 1.8em;
+    color: var(--main-bg-color);
+}
+
+.divider {
+    width: 0.25%;
+    height: 50vh;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.form_right {
+    width: 39.75%;
 }
