@@ -6,6 +6,17 @@
     --font2: 'Quicksand', sans-serif;
 }
 
+*:focus {
+    outline: none;
+}
+
+.present {
+    border: 0.1em solid var(--main-bg-color);
+    font-weight: bolder;
+    padding: 0 0.5em;
+    border-radius: 1.5em;
+}
+
 
 /* width */
 

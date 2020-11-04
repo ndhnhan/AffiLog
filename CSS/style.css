@@ -124,6 +124,12 @@ hr {
     border: 0.01em solid var(--main-bg-color);
     border-radius: 1em;
     margin: 0.4em 1em 0.4em 0em;
+    cursor: pointer;
+}
+
+.recent_elements img:hover {
+    transition: all 0.3s ease-in-out;
+    border: 0.1em solid var(--main-bg-color);
 }
 
 .sticky_foot {
