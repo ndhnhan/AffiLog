@@ -13,15 +13,23 @@
         .content_right img {
             display: none;
         }
+        .content_left h2 a {
+            font-size: 1.4em;
+        }
         .recent_elements {
             flex-direction: column;
             margin-top: 0.5em;
+            overflow: hidden;
+        }
+        .recent_elements img {
+            border: 0;
         }
         .recent_elements p {
             text-align: justify;
         }
         .recent_elements_text {
             text-align: center;
+            padding: 0.5em;
         }
         .sticky_foot {
             margin-top: 1em;
@@ -66,6 +74,21 @@
         .form {
             justify-content: center;
         }
+        .post_thumbnail {
+            width: 100%;
+            text-align: center;
+            background: #fff;
+            border-right: 0;
+            border-bottom: 0.1em solid;
+            border-radius: 0.2em 0.2em 0 0;
+            cursor: pointer;
+        }
+    }
+    
+    @media screen and (max-width: 920px) {
+        .blog_categories {
+            grid-template-columns: 58%;
+        }
     }
     
     @media screen and (max-width: 750px) {
@@ -79,6 +102,9 @@
         }
         .blog_right {
             display: none;
+        }
+        .blog_categories {
+            grid-template-columns: 98%;
         }
     }
     

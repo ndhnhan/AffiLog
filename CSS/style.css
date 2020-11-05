@@ -40,18 +40,23 @@ hr {
 
 .nav_left ul li a {
     text-decoration: none;
+    font-weight: bolder;
     color: black;
 }
 
 .nav_left ul li a:hover {
     color: var(--main-bg-color);
-    font-weight: bolder;
     transition: all 0.2s ease-in-out;
 }
 
 .nav_right {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.nav_right form {
+    display: flex;
 }
 
 .nav_right a i {
@@ -61,6 +66,51 @@ hr {
 .nav_right a i:hover {
     color: var(--main-bg-color);
     transition: all 0.2s ease-in-out;
+}
+
+.blog_categories {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.blog_card {
+    margin: 1em 0.8em 1em 0.8em;
+    border: 0.1em solid;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.blog_card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_up img {
+    border-bottom: 0.1em solid;
+    width: 100%;
+    border-radius: 0.2em 0.2em 0 0;
+    cursor: pointer;
+}
+
+.card_down {
+    padding: 0 0.7em 0.6em 0.7em;
+}
+
+.card_down a {
+    text-decoration: none;
+    color: #000;
+    font-family: var(--font1);
+}
+
+.card_down a:hover {
+    color: var(--main-bg-color);
+}
+
+.card_down p {
+    font-family: var(--font2);
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 .content_body {
@@ -109,6 +159,19 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.1em solid #000;
+    border-radius: 0.3em;
+    margin: 0.5em;
+    background-color: rgb(255, 240, 230);
+}
+
+.recent_elements:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.recent_elements_text {
+    padding: 1em;
 }
 
 .recent_elements_text h4 a {
@@ -128,18 +191,30 @@ hr {
     font-family: var(--font1);
 }
 
-.recent_elements img {
-    height: 150px;
-    border: 0.01em solid var(--main-bg-color);
-    border-radius: 1em;
-    margin: 0.4em 1em 0.4em 0em;
-    cursor: pointer;
+.post_thumbnail {
+    text-align: center;
+    background: #fff;
+    border-right: 0.1em solid;
+    border-radius: 0.2em 0 0 0.2em;
 }
 
-.recent_elements img:hover {
-    transition: all 0.3s ease-in-out;
-    border: 0.1em solid var(--main-bg-color);
+.recent_elements img {
+    height: 150px;
+    /* border: 0.01em solid var(--main-bg-color); */
+    /* border-right: 0.1em solid #000000; */
+    border-radius: 0.2em 0 0 0.2em;
+    /* margin: 0.4em 1em 0.4em 0em; */
+    margin-right: 1em;
+    cursor: pointer;
+    background-color: #ffffff;
 }
+
+
+/* .recent_elements img:hover {
+    transition: all 0.3s ease-in-out;
+    border: 0.1em solid var(--main-bg-color);/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+} */
 
 .sticky_foot {
     min-height: 8vh;
