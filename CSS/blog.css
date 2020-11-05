@@ -24,15 +24,16 @@ h2:hover {
 }
 
 .blog_left img {
-    height: 80vh;
-    width: inherit;
+    width: 56vw;
+    height: inherit;
     margin-bottom: 2.5em;
+    border-radius: 0.3em;
 }
 
 .blog_left p {
     text-align: justify;
     margin-bottom: 2em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .blog_right {
