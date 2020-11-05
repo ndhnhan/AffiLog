@@ -13,13 +13,16 @@
     color: var(--main-bg-color);
 }
 
-.divider {
+
+/* .divider {
     width: 0.25%;
     height: 50vh;
     background-color: rgb(221, 221, 221);
     border-radius: 10px;
 }
+*/
 
-.form_right {
+
+/* .form_right {
     width: 39.75%;
-}
+} */

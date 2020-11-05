@@ -1,0 +1,110 @@
+    @media screen and (max-width: 1300px) {
+        .blog_left img {
+            width: 57vw;
+            height: inherit;
+        }
+    }
+    
+    @media screen and (max-width: 1030px) {
+        .navi_bar {
+            flex-direction: column;
+            margin-bottom: 0.5em;
+        }
+        .content_right img {
+            display: none;
+        }
+        .recent_elements {
+            flex-direction: column;
+            margin-top: 0.5em;
+        }
+        .recent_elements p {
+            text-align: justify;
+        }
+        .recent_elements_text {
+            text-align: center;
+        }
+        .sticky_foot {
+            margin-top: 1em;
+        }
+        .blog_left h3 {
+            font-size: 2em;
+        }
+        .blog_right {
+            margin: 4em 0 0em 3em;
+        }
+        h2 {
+            font-size: 0.8em;
+        }
+        .card_about {
+            padding: 0.5em;
+        }
+        .card_about img {
+            width: 6em;
+            height: inherit;
+        }
+        .card_about p {
+            font-size: 0.7em;
+            text-align: justify;
+        }
+        .card_recent_post img {
+            height: inherit;
+            width: 17vw;
+        }
+        .blog_left p {
+            font-size: 1em;
+        }
+        .card_comment textarea {
+            width: 86%;
+            padding: 0.5em;
+            font-size: 0.7em;
+        }
+        .btn_1 {
+            font-size: 0.7em;
+            margin-top: 0.7em;
+            padding-top: 0.3em;
+        }
+        .form {
+            justify-content: center;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        .blog {
+            display: grid;
+            grid-template-columns: 100% 0%;
+        }
+        .blog_left img {
+            width: 80vw;
+            height: inherit;
+        }
+        .blog_right {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 547px) {
+        .nav_left {
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 0.8em;
+        }
+        .nav_right a i {
+            display: none;
+        }
+        .form_left span {
+            font-size: 1.4em;
+        }
+        .form_input {
+            margin: 0 1em;
+        }
+        .blog_left h3 {
+            font-size: 1.5em;
+        }
+        .form_input_1 {
+            width: 70%;
+            font-size: 0.7em;
+        }
+        .btn_1 {
+            width: 7em;
+        }
+    }

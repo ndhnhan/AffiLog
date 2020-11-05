@@ -54,6 +54,15 @@ hr {
     align-items: center;
 }
 
+.nav_right a i {
+    color: #000;
+}
+
+.nav_right a i:hover {
+    color: var(--main-bg-color);
+    transition: all 0.2s ease-in-out;
+}
+
 .content_body {
     min-height: 20vh;
     /* background-color: teal; */
