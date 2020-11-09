@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+:root {
+    --main-bg-color: rgb(255, 152, 17);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Quicksand', sans-serif;
+    --font3: 'Neucha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+
+*:focus {
+    outline: none;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+
+/* ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+} */
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(163, 155, 155);
+    border: 0;
+    border-radius: 4em;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(105, 99, 99);
+}
+
+
+/* body {
+    background-color: aquamarine;
+} */
+
+.add_blog {
+    margin: auto;
+    max-width: 70vw;
+    /* background-color: aquamarine; */
+}
+
+.add_blog h1 {
+    margin-top: 1.5em;
+    color: #2c0a8a;
+    font-family: var(--font3);
+    text-align: center;
+}
+
+.add_blog form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_blog_input {
+    width: 38vw;
+    margin-top: 0.5em;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    font-family: var(--font2);
+    border: 0.1em solid var(--main-bg-color);
+    border-radius: 0.5em;
+}
+
+.select_width {
+    width: 42.19vw;
+}
+
+.add_blog_input:focus {
+    border: 0.1em solid rgb(122, 216, 0);
+}
+
+.add_blog_input:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    width: 10vw;
+    margin-top: 1.5em;
+    font-family: var(--font2);
+    background-color: var(--main-bg-color);
+    font-size: 1em;
+    padding: 0.6em 1em;
+    padding-top: 0.2em;
+    border: 0.16em solid var(--main-bg-color);
+    color: white;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--main-bg-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* For styling Choose file input tag  */
+
+
+/*.custom-file-input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Add image for this blog';
+    color: black;
+    display: inline-block;
+    background: #fff;
+    border: 0.1em solid var(--main-bg-color);
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    padding-bottom: 0.6em;
+    /* white-space: nowrap;
+
+-webkit-user-select: none;
+cursor: pointer;
+font-family: var(--font2);
+font-size: 1.2em;
+
+}
+.custom-file-input:hover::before {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.custom-file-input:active {
+    outline: 0;
+}
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+*/
