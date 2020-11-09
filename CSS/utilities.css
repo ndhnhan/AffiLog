@@ -49,7 +49,7 @@
 }
 
 .min_height {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .max_width_1 {
@@ -99,6 +99,10 @@
     margin: 0 1.4em;
 }
 
+.form_input:focus {
+    border: 0.12em solid var(--main-bg-color);
+}
+
 .form_input:hover {
     transition: all 0.3s ease-in-out;
     border: 0.12em solid var(--main-bg-color);
@@ -112,6 +116,10 @@
     font-family: var(--font2);
     border: 0.1em solid var(--main-bg-color);
     border-radius: 0.5em;
+}
+
+.form_input_1:focus {
+    border: 0.1em solid rgb(122, 216, 0);
 }
 
 .form_input_1:hover {

@@ -5,7 +5,9 @@
         }
     }
     
-    @media screen and (max-width: 1030px) {
+    @media screen and (max-width: 1078px) {}
+    
+    @media screen and (max-width: 1078px) {
         .navi_bar {
             flex-direction: column;
             margin-bottom: 0.5em;
@@ -76,12 +78,15 @@
         }
         .post_thumbnail {
             width: 100%;
-            text-align: center;
+            justify-content: center;
             background: #fff;
             border-right: 0;
             border-bottom: 0.1em solid;
             border-radius: 0.2em 0.2em 0 0;
             cursor: pointer;
+        }
+        .post_thumbnail img {
+            border-radius: 0;
         }
     }
     
