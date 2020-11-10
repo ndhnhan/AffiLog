@@ -54,6 +54,18 @@
     background-color: aquamarine;
 } */
 
+.dev_methods {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.alert {
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(209, 255, 240);
+    text-align: center;
+}
+
 .add_blog {
     margin: auto;
     max-width: 70vw;
@@ -110,10 +122,51 @@
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn_1:hover {
     background-color: white;
     color: var(--main-bg-color);
     transition: all 0.3s ease-in-out;
+}
+
+.blog_table {
+    width: 100%;
+    text-align: center;
+    /* background-color: blue; */
+    margin: 2.5em 0;
+}
+
+table,
+th,
+td {
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+td:nth-child(2) {
+    width: 60%;
+}
+
+.btn_1 {
+    width: 4vw;
+    margin: 0.5em 0.5em;
+    font-family: var(--font2);
+    background-color: var(--main-bg-color);
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+    padding-top: 0.1em;
+    border: 0.08em solid var(--main-bg-color);
+    color: white;
+    border-radius: 0.15em;
+    cursor: pointer;
 }
 
 
